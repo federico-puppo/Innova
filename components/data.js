@@ -1,34 +1,70 @@
 import {
-  FaceSmileIcon,
-  ChartBarSquareIcon,
-  CursorArrowRaysIcon,
-  DevicePhoneMobileIcon,
-  AdjustmentsHorizontalIcon,
-  SunIcon,
+  ArrowTrendingUpIcon,
+  FilmIcon,
+  PaintBrushIcon,
+  ChatBubbleBottomCenterTextIcon,
+  PlayCircleIcon,
+  RocketLaunchIcon,
+  GlobeAltIcon,
+  AcademicCapIcon
 } from "@heroicons/react/24/solid";
 
-import benefitOneImg from "../public/img/benefit-one.png";
+import benefitOneImg from "../public/img/services.png";
 import benefitTwoImg from "../public/img/benefit-two.png";
 
+const benefitZero = {
+  bullets: [
+    {
+      //🚀
+      title: "Te asesoramos para llegar al próximo nivel",
+      desc: "",
+      icon: <RocketLaunchIcon />,
+    },
+    {
+      //🌐
+      title: "Red de Profesionales",
+      desc: "",
+      icon: <GlobeAltIcon />,
+    },
+    {
+      //🧑🏻‍💻 
+      title: "Capacitaciones para tu empresa",
+      desc: "",
+      icon: <AcademicCapIcon />,
+    },
+  ],
+};
+
+
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "NUESTROS SERVICIOS",
+  desc: "En Innova Solutions, no solo nos dedicamos al marketing digital; redefinimos los límites de lo posible. Con una pasión ardiente por la innovación y el éxito de nuestros clientes, somos más que una empresa: somos el catalizador que transformará su negocio para el mundo digital de mañana.",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
-      icon: <FaceSmileIcon />,
+      title: "Marketing",
+      desc: "Impulsamos su marca y su negocio a nuevos horizontes digitales a través de estrategias de marketing innovadoras y efectivas.",
+      icon: <ArrowTrendingUpIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
-      icon: <ChartBarSquareIcon />,
+      title: "Audiovisual",
+      desc: "Creamos contenido audiovisual cautivador que conecta con su audiencia y transmite su mensaje de manera impactante.",
+      icon: <FilmIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
-      icon: <CursorArrowRaysIcon />,
+      title: "Diseño Gráfico",
+      desc: "Diseñamos elementos visuales únicos y atractivos que reflejan la identidad de su marca y cautivan a su audiencia.",
+      icon: <PaintBrushIcon />,
+    },
+    {
+      title: "Anuncios",
+      desc: "Creamos campañas publicitarias efectivas y persuasivas que aumentan la visibilidad y el alcance de su marca.",
+      icon: <PlayCircleIcon />,
+    },
+    {
+      title: "Comunity Management",
+      desc: "Gestionamos sus redes sociales de manera profesional y estratégica, construyendo una comunidad comprometida y fiel a su marca.",
+      icon: <ChatBubbleBottomCenterTextIcon />,
     },
   ],
 };
@@ -41,20 +77,21 @@ const benefitTwo = {
     {
       title: "Mobile Responsive Template",
       desc: "Nextly is designed as a mobile first responsive template.",
-      icon: <DevicePhoneMobileIcon />,
+      icon: <ArrowTrendingUpIcon />,
     },
     {
       title: "Powered by Next.js & TailwindCSS",
       desc: "This template is powered by latest technologies and tools.",
-      icon: <AdjustmentsHorizontalIcon />,
+      icon: <ArrowTrendingUpIcon />,
     },
     {
       title: "Dark & Light Mode",
       desc: "Nextly comes with a zero-config light & dark mode. ",
-      icon: <SunIcon />,
+      icon: <ArrowTrendingUpIcon />,
     },
   ],
 };
 
 
-export {benefitOne, benefitTwo};
+
+export {benefitZero, benefitOne, benefitTwo};

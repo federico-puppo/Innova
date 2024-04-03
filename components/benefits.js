@@ -8,16 +8,19 @@ const Benefits = (props) => {
     <>
       <Container className="flex flex-wrap mb-20 lg:gap-10 lg:flex-nowrap ">
         <div
-          className={`flex items-center justify-center w-full lg:w-1/2 ${
+          className={`flex items-center justify-center w-full lg:w-1/2${
             props.imgPos === "right" ? "lg:order-1" : ""
-          }`}>
+          }`}
+        >
           <div>
             <Image
               src={data.image}
               width="521"
               height="auto"
               alt="Benefits"
-              className={"object-cover"}
+              className={
+                "object-cover animate-fade-right animate-once animate-duration-[3000ms] animate-ease-in animate-normal"
+              }
               placeholder="blur"
               blurDataURL={data.image.src}
             />
@@ -27,10 +30,11 @@ const Benefits = (props) => {
         <div
           className={`flex flex-wrap items-center w-full lg:w-1/2 ${
             data.imgPos === "right" ? "lg:justify-end" : ""
-          }`}>
+          }`}
+        >
           <div>
-            <div className="flex flex-col w-full mt-4">
-              <h3 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
+            <div className="flex flex-col w-full mt-4 ">
+              <h3 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-violet-5">
                 {data.title}
               </h3>
 
@@ -41,9 +45,14 @@ const Benefits = (props) => {
 
             <div className="w-full mt-5">
               {data.bullets.map((item, index) => (
-                <Benefit key={index} title={item.title} icon={item.icon}>
-                  {item.desc}
-                </Benefit>
+                <div
+                  key={index}
+                  className="hover:translate-x-[20px] duration-300 ease-in-out hover:bg-opacity-50 rounded-md hover:bg-gradient-to-r to-violet-3 from-trueGray-900 "
+                >
+                  <Benefit title={item.title} icon={item.icon}>
+                    {item.desc}
+                  </Benefit>
+                </div>
               ))}
             </div>
           </div>
@@ -57,9 +66,9 @@ function Benefit(props) {
   return (
     <>
       <div className="flex items-start mt-8 space-x-3">
-        <div className="flex items-center justify-center flex-shrink-0 mt-1 bg-indigo-500 rounded-md w-11 h-11 ">
+        <div className="flex items-center justify-center flex-shrink-0 mt-1 bg-violet-4 rounded-md w-11 h-11 ">
           {React.cloneElement(props.icon, {
-            className: "w-7 h-7 text-indigo-50",
+            className: "w-7 h-7 text-indigo-50 ",
           })}
         </div>
         <div>

@@ -1,4 +1,22 @@
-<svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="44" height="44" rx="6" fill="#4F46E5"/>
-<path d="M31.3662 34H25.7427L17.4282 19.4014V34H11.7725V10.5391H17.4282L25.7266 25.1377V10.5391H31.3662V34Z" fill="white"/>
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="67.68" y1="14.184" x2="67.68" y2="80.084" id="gradient-0" gradientTransform="matrix(0.242648, 0.585806, -0.585804, 0.242649, 79.138538, 0.910294)" spreadMethod="pad">
+      <stop offset="0" style="stop-color: rgb(132, 86, 156);"/>
+      <stop offset="1" style="stop-color: rgb(182, 156, 197);"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="21.98" y1="24.1" x2="21.98" y2="90" id="gradient-1" gradientTransform="matrix(0.23936, -0.577868, 0.577866, 0.239361, -16.447327, 55.734232)">
+      <stop offset="0" style="stop-color: rgb(132, 86, 156);"/>
+      <stop offset="1" style="stop-color: rgb(182, 156, 197);"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="45" y1="0" x2="45" y2="36.83" id="gradient-2" gradientTransform="matrix(0, -2.072719, 2.072711, 0, 6.893079, 111.731548)">
+      <stop offset="0" style="stop-color: rgb(132, 86, 156);"/>
+      <stop offset="1" style="stop-color: rgb(182, 156, 197);"/>
+    </linearGradient>
+  </defs>
+  <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+    <polygon points="45,0 82.9,18.42 45,36.83 7.1,18.42 " style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill-rule: nonzero; opacity: 1; fill: url('#gradient-2');" transform="  matrix(1 0 0 1 0 0) "/>
+    <polygon points="2.52,24.1 41.44,43.02 41.44,90 2.52,71.08 " style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill-rule: nonzero; opacity: 1; fill: url('#gradient-1');" transform="  matrix(1 0 0 1 0 0) "/>
+    <polygon points="48.56,90 48.56,43.02 87.48,24.1 87.48,71.08 " style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill-rule: nonzero; opacity: 1; fill: url('#gradient-0'); paint-order: fill;" transform="  matrix(1 0 0 1 0 0) "/>
+  </g>
 </svg>
